@@ -1,0 +1,26 @@
+.header {
+  display:flex;
+  justify-content: center;
+}
+
+.navbar {
+  font-size: 26px;
+  font-weight: 500;
+  color: white;
+  padding: .5rem 0;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 7rem;
+  padding: .5rem;
+}
+.navbar a:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.navbar i {
+  margin-right: 25%;
+}
+

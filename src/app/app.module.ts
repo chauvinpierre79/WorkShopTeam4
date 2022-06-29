@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SigningComponent } from './pages/signing/signing.component';
 import { QRcodeComponent } from './pages/qrcode/qrcode.component';
 import { MailComponent } from './pages/mail/mail.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MailComponent } from './pages/mail/mail.component';
     HomeComponent,
     SigningComponent,
     QRcodeComponent,
-    MailComponent
+    MailComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

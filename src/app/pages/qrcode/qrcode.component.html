@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="QRcode">
+        <div class="qr-card">
+            <div class="form">
+                <qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+                <p>Code de signature</p>
+                <h1>{{ myAngularxQrCode }}</h1>
+            </div>
+        </div>
+    </div>
+</div>

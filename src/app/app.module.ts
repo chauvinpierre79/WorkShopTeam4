@@ -10,6 +10,8 @@ import { SigningComponent } from './pages/signing/signing.component';
 import { QRcodeComponent } from './pages/qrcode/qrcode.component';
 import { MailComponent } from './pages/mail/mail.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
+import { ScheduleModule } from '@syncfusion/ej2-angular-schedule';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    QRCodeModule
+    QRCodeModule,
+    ScheduleModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

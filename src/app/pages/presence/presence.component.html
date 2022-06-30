@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="main">
+  <div class="presence">
+    <h1>9h00</h1>
+    <div class="list">
+      <!-- <input id="checkAll" type="checkbox">
+            <label for="checkAll"> Tout sélectionner</label> -->
+      <table>
+        <tbody>
+          <tr class="students" *ngFor="let student of students">
+            <td class="Nom">{{ student.Nom }}</td>
+            <td class="Prenom">{{ student.Prenom }}</td>
+            <td class="Promo">{{ student.Promo }}</td>
+            <td class="Email">{{ student.Email }}</td>
+            <td class="clock"><fa-icon [icon]="faClock"></fa-icon></td>
+            <td class="pen"><fa-icon [icon]="faPen"></fa-icon></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

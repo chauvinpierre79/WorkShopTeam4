@@ -19,6 +19,8 @@ body {
     align-content: center;
     align-items: center;
     justify-content: center;
+    background: rgb(250,121,105);
+    background: linear-gradient(45deg, rgba(250,121,105,1) 0%, rgba(62,146,207,1) 100%);
 }
 
 .login {

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 *,
 :before,
@@ -61,8 +60,7 @@ body {
 }
 
 .mail-btn {
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-bottom: 1vh;
     padding: 1.5%;
     font-size: 14px;
     background: #0000009c;
@@ -89,4 +87,19 @@ body {
     margin-bottom: 15px;
     color: white;
 }
+
+table {
+   border-collapse : separate;
+   border-spacing : 3vw 2vh; 
+}
+
+.list {
+    margin-top: 5vh;
+    text-align: left;
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    overflow: auto;
+}
+
 

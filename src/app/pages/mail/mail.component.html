@@ -1,6 +1,21 @@
 <app-navbar></app-navbar>
 <div class="main">
     <div class="mail">
-        <h1>Envoyer par mail</h1>
+        <button class="mail-btn">Envoyer par mail</button>
+        <div class="list">
+            <!-- <input id="checkAll" type="checkbox">
+            <label for="checkAll"> Tout sélectionner</label> -->
+            <table>
+                <tbody>
+                    <tr class="students" *ngFor="let student of students">
+                        <td class="Nom"><input id="check" type="checkbox"></td>
+                        <td class="Nom">{{student.Nom}}</td>
+                        <td class="Prenom">{{student.Prenom}}</td>
+                        <td class="Promo">{{student.Promo}}</td>
+                        <td class="Email">{{student.Email}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>

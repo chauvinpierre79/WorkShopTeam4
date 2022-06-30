@@ -11,7 +11,8 @@ import { QRcodeComponent } from './pages/qrcode/qrcode.component';
 import { MailComponent } from './pages/mail/mail.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { ScheduleModule } from '@syncfusion/ej2-angular-schedule';
-
+import { PresenceComponent } from './pages/presence/presence.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -21,16 +22,17 @@ import { ScheduleModule } from '@syncfusion/ej2-angular-schedule';
     SigningComponent,
     QRcodeComponent,
     MailComponent,
-    NavbarComponent
+    NavbarComponent,
+    PresenceComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     QRCodeModule,
-    ScheduleModule
-   
+    FontAwesomeModule,
+    ScheduleModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

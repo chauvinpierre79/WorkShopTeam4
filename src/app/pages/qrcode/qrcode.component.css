@@ -35,6 +35,13 @@ body {
     animation: login 0.88s ease;
 }
 
+@media screen and (max-width: 600px) {
+    .QRcode {
+        width: 85vw;
+        height: 75vh;
+    }
+}
+
 @keyframes login {
     0% {
         transform: translateY(-10%) scale(0.8);

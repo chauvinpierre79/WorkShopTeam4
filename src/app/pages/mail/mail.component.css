@@ -35,6 +35,7 @@ body {
     animation: login 0.88s ease;
 }
 
+
 @keyframes login {
     0% {
         transform: translateY(-10%) scale(0.8);
@@ -100,6 +101,17 @@ table {
     height: 35vh;
     position: relative;
     overflow: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .mail {
+        width: 85vw;
+        height: 75vh;
+    }
+
+    .list {
+        height: 60vh;
+    }
 }
 
 
